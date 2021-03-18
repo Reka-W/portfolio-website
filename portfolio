@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Reka Walkup | Portfolio Website</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+
+<!-- Header Section -->
+
+      <header>
+      <div class="full-width">
+
+          <div class="half-width">
+            <h1>< Reka Walkup | Web Developer /></h1>
+          </div>
+
+          <div class="half-width">
+              <nav>
+                <ul>
+                  <li><a href="#about">about</a></li>
+                  <li><a href="#portfolio">portfolio</a></li>
+                  <li><a href="#contact">contact</a></li>
+                </ul>
+              </nav>
+          </div>
+      </div>
+    </header>
+    </body>
+    </html>

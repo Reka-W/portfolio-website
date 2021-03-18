@@ -1,0 +1,173 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    background-color: #1f202b;
+    width: 1400px;
+}
+
+
+/***** Grid *****/
+
+.full-width {
+  width: 1200px;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** Nav Section *****/
+
+nav {
+  float: right;
+  word-spacing: 45px;
+  margin-right: -170px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav ul a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-size: 30px;
+}
+
+/***** Header *****/
+
+header {
+  height: 800px;
+  background: url('../img/hero-background.png') no-repeat 0px 80px;
+}
+
+h1 {
+  font-size: 30px;
+  color: white;
+  margin-left: 30px;
+  font-weight: normal;
+}
+
+header h2 {
+  clear: both;
+  color: white;
+  margin-left: 100px;
+  padding-top: 300px;
+  font-size: 65px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+header span {
+  color: #fc3492;
+
+}
+
+
+/***** Portfolio Section *****/
+
+#portfolio h2, #about h2, #contact h2 {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    color: #fa0075;
+    text-transform: lowercase;
+}
+
+
+
+#portfolio h3, #portfolio p {
+  color: white;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+
+#portfolio {
+  height: 1550px;
+}
+
+#portfolio img {
+  border: 1px solid #b7b7b7;
+}
+
+.right {
+  text-align: right;
+  padding-right: 50px;
+}
+
+
+.projects {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.port-col-1 {
+  clear: both;
+  margin-bottom: 100px;
+    box-sizing: border-box;
+    height: 350px;
+}
+
+.port-col-2{
+  box-sizing: border-box;
+  padding-left: 50px;
+    margin-bottom: 100px;
+
+}
+
+.desc {
+  margin-top: -25px;
+}
+
+/***** About Section *****/
+
+#about {
+  background: url('../img/about-me.png') no-repeat;
+  height: 550px;
+  padding-left: 100px;
+  padding-top: 15px;
+}
+
+.bio {
+  padding-right: 600px;
+}
+
+/***** Contact *****/
+
+#contact {
+
+  height: 400px;
+  margin-left: 100px;
+}
+
+#contact a {
+  color: white;
+}
+
+
+
+#contact img {
+  margin-left: 60px
+}
+
+#contact h3, #contact p {
+  color: white;
+  font-weight: normal;
+  text-align: center;
+}
+
+.copyright {
+  clear: both;
+  font-size: 18px;
+  margin-top: 320px;
+  text-align: center;
+}
